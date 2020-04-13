@@ -27,10 +27,10 @@ user_name = WebDriverWait(chrome_browser, 10).until(
 user_name.send_keys('NAME')
 
 user_mobile = chrome_browser.find_element_by_id('ctl00_ContentPlaceHolder1_Mobile')
-user_mobile.send_keys('0911333333')
+user_mobile.send_keys('0911123123')
 
 mobile_recheck = chrome_browser.find_element_by_id('ctl00_ContentPlaceHolder1_Mobile_ReCheck')
-mobile_recheck.send_keys('0911333333')
+mobile_recheck.send_keys('0911123123')
 
 user_email = chrome_browser.find_element_by_id('ctl00_ContentPlaceHolder1_EMail')
 user_email.send_keys('xxx@gmail.com')
